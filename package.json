@@ -1,0 +1,33 @@
+{
+  "name": "sitemapper",
+  "version": "1.0.0",
+  "description": "A simple nodejs site map generator",
+  "main": "index.es6",
+  "dependencies": {
+    "async": "^2.0.1",
+    "chromedriver": "^2.22.1",
+    "lodash": "^4.14.1",
+    "selenium-standalone": "^5.5.0",
+    "selenium-webdriver": "^2.53.3"
+  },
+  "devDependencies": {
+    "standard": "^7.1.2"
+  },
+  "scripts": {
+    "start": "node index.es6",
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmednuaman/sitemapper.git"
+  },
+  "keywords": [
+    "sitemap"
+  ],
+  "author": "Ahmed Nuaman (ahmed@ahmednuaman.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ahmednuaman/sitemapper/issues"
+  },
+  "homepage": "https://github.com/ahmednuaman/sitemapper#readme"
+}
